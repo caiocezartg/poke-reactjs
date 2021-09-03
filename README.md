@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# PokeReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
-## Available Scripts
+![GitHub repo size](https://img.shields.io/github/repo-size/caiocezartg/poke-reactjs?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/caiocezartg/poke-reactjs?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/caiocezartg/poke-reactjs?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/caiocezartg/poke-reactjs?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/caiocezartg/poke-reactjs?style=for-the-badge)
 
-In the project directory, you can run:
+<img src="./src/assets/exemplo-pokereactjs.PNG" alt="exemplo imagem">
 
-### `yarn start`
+> Projeto simples utilizando ReactJS, Axios, StyledComponents para consumo de uma API pública para listar 20 Pokémons na página em ordem numérica.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Ajustes e melhorias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-### `yarn test`
+- [X] Input para filtrar os Pokémon
+- [X] Paginação
+- [X] Routes para cada Pokémon com informações adicionais sobre o mesmo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 💻 Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Você instalou a versão mais recente de `ReactJS, nodeJS`
+* Você tem uma máquina `Windows, Linux ou Mac`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Instalando PokeReactJS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para instalar o PokeReactJS, siga estas etapas:
 
-### `yarn eject`
+Linux e macOS:
+```
+cd poke-reactjs
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm install OU yarn
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Windows:
+```
+cd poke-reactjs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm install OU yarn
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## ☕ Usando PokeReactJS
 
-## Learn More
+Para usar search.Github, basta apenas:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+Navegar pelo site e caso queira visualizar mais 20 Pokémon, clique em CARREGAR MAIS localizado no rodapé da página.
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[⬆ Voltar ao topo](#pokereactjs)<br>
